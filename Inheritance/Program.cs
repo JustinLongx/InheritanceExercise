@@ -34,6 +34,11 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+            var bird = new Bird();
+            bird.BirdMessage();
+
+            var reptile = new Reptile();
+            reptile.ReptileMessage();
         }
     }
 }
